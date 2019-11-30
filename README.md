@@ -10,6 +10,12 @@ A Geng Shuang speech emulator. Originally created by [xwgmdjc](https://github.co
 - 生成句式去重
 - 复制到剪贴板
 
-![gspreview.png](https://i.loli.net/2019/11/30/T9AwOQnHGxJYZ4U.png)
+![gspreview.png](https://i.loli.net/2019/12/01/2A46uS7lRyakgWt.png)
 
-![gspreview.png](https://raw.githubusercontent.com/fedink/GengShuangEmulator/master/gspreview.png)
+### 声明
+
+本仓库没有表达，传播或暗示任何政治含义的意图。请勿过度解读。
+
+### License
+
+Unlicense
