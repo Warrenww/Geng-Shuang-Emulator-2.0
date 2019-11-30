@@ -4,20 +4,32 @@
 }
 
 body {
-    padding: 10px 20px 40px;
+    padding: 20px 30px 40px;
     background: #EEE;
 }
 
 small.label {
     display: block;
+    font-weight: bold;
+    color: #aaa;
 }
 
 .button {
     cursor: pointer;
     background: #333;
-    padding: 10px;
+    padding: 12px;
     color: #EEE;
     display: inline-block;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    opacity: 0.6;
 }
 
 input:hover {
@@ -26,11 +38,8 @@ input:hover {
 
 input[type="text"] {
     font-size: 20px;
-    margin: 10px 0 10px;
-}
-
-.button:hover {
-    opacity: 0.8;
+    margin: 10px 0 20px;
+    padding: 5px;
 }
 
 h1 {
@@ -56,5 +65,16 @@ h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    opacity: 0.1;
+    opacity: 0.2;
+}
+
+.actions {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.shuffle {
+    margin-left: 10px;
+    height: 30px;
 }
