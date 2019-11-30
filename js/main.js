@@ -68,10 +68,10 @@ var countries =
 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+        var j = Math.floor(Math.random() * (i + 1))
+        var temp = array[i]
+        array[i] = array[j]
+        array[j] = temp
     }
 }
 
@@ -106,7 +106,10 @@ function generate() {
     var n = document.getElementById("1").value
     var b = document.getElementById("2").value
     if (n.length === 0 || b.length === 0) {
-
+        Snackbar.show({
+            pos: 'bottom-center',
+            text: '请提供完整的关键词'
+        });
     } else {
         while (text.hasChildNodes()) {
             text.removeChild(text.firstChild)
@@ -131,5 +134,20 @@ function random() {
     document.getElementById("1").value = pick(countries)
     generate()
 }
+
+var clipboard = new ClipboardJS('.copy')
+clipboard.on('success', function(e) {
+    Snackbar.show({
+        pos: 'bottom-center',
+        text: '复制成功'
+    });
+});
+
+clipboard.on('error', function(e) {
+    Snackbar.show({
+        pos: 'bottom-center',
+        text: '复制失败'
+    });
+});
 
 random()
