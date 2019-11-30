@@ -1,4 +1,4 @@
-# GengShuang
+# Geng Shuang Emulator
 
 A Geng Shuang speech emulator. Originally created by [xwgmdjc](https://github.com/xwgmdjc).
 
@@ -9,3 +9,5 @@ A Geng Shuang speech emulator. Originally created by [xwgmdjc](https://github.co
 - 响应式支持
 
 ![gspreview.png](https://i.loli.net/2019/11/30/T9AwOQnHGxJYZ4U.png)
+
+![gspreview.png](https://raw.githubusercontent.com/fedink/GengShuangEmulator/master/gspreview.png)
