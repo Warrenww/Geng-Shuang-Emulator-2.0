@@ -18,4 +18,4 @@ A Geng Shuang speech emulator. Originally created by [xwgmdjc](https://github.co
 
 ### License
 
-Unlicense
+Unlicense (excluding library files)
