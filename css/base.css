@@ -1,6 +1,6 @@
 * {
     transition: all .2s;
-    font-family: 'Roboto Mono', '思源黑体', sans-serif;
+    font-family: 'Roboto Mono', '思源黑体', 'MicrosofMicrosoft YaHei', sans-serif;
 }
 
 *::selection {
@@ -53,11 +53,12 @@ input[type="text"] {
 h1 {
     font-size: 40px;
 }
+h2{font-size: 30px}
 .text-container {
     padding: 10px 20px 20px;
     background: #f6f6f6;
     box-shadow: 0 10px 30px 0 rgba(0,0,0,0.05);
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     min-height: 200px;
     font-size: 14px;
     line-height: 1.5;
@@ -92,9 +93,29 @@ h1 {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .shuffle {
     margin-left: 10px;
     height: 30px;
+}
+
+#options{
+  margin-bottom:10px;
+  max-height:0;
+  overflow: hidden;
+}
+#options.active{
+  max-height: 200px;
+}
+#options>div{
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+@media print {
+  h1, input, #options, small, .actions, small.label{display: none}
 }

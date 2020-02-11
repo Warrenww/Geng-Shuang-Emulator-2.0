@@ -1,21 +1,19 @@
 # Geng Shuang Emulator
 
-A Geng Shuang speech emulator. Originally created by [xwgmdjc](https://github.com/xwgmdjc).
+A Geng Shuang speech emulator. Originally created by [xwgmdjc](https://github.com/xwgmdjc).<br>
+This version is fetch from [fedink](https://github.com/fedink/GengShuangEmulator.git).
 
-### 分支改进
+## New function
 
-- UI/UX 优化与重设计
-- 表单提交检查与随机输入生成
-- 响应式支持
-- 生成句式去重
-- 复制到剪贴板
+- Add a option to switch the attitude of Geng Shuang between positive and negative.
+- Add a option to switch the language between simple and traditional Chinese.
+- Add a report like mode with image of Geng Shuang from Google Image.
+- Copy to clipboard now is executed as a internal function instead of external library.
+- Support friendly print style.
 
-![gspreview.png](https://i.loli.net/2019/12/01/2A46uS7lRyakgWt.png)
-
-### 声明
-
-本仓库没有表达，传播或暗示任何政治含义的意图。请勿过度解读。
-
-### License
+## License
 
 Unlicense (excluding library files)
+
+## Declaration
+This repo is not related to any official person or organization, and has no any political meaning. Please do not overinterpret.
